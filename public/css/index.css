@@ -26,7 +26,7 @@ div.lesson-four-task-eight>input[type='checkbox']:checked ~ div#target{
     color: white;
 }
 div.lesson-four-task-nine>p:lang(uk), p:last-child{
-    color: blue;
+    
 }
 .lesson-four-task-ten>form>div>input#username:enabled {
     color: red;
