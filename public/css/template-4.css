@@ -1,0 +1,205 @@
+:root {
+    font-family: Roboto;
+
+    --space-m: 12px;
+    --space-xm: 16px;
+    --space-l: 24px;
+    --space-b: 36px;
+
+    --size-d: 16px;
+    --size-s: 14px;
+    --size-l: 20px;
+
+    --color-border: #dee2e6;
+    --color-primary: rgb(46, 46, 255);
+    --color-white: #fff;
+    --color-title: #212529;
+    --color-text: #343a40;
+
+    --border-radius: 12px;
+
+    --weight-title: 500;
+    --weight-text: 400;
+}
+/* ==================================== */
+.page {
+    background: #FFFFFF;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.page_content {
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    gap: 80px;
+}
+/* ==================================== */
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid var(--color-border);
+    
+    padding: var(--space-l) 0;
+}
+.logo {
+    font-size: 17px;
+    color: var(--color-white);
+    background: #563D7C;
+    width: var(--space-l);
+    height: var(--space-l);
+    border-radius: calc(var(--border-radius)/2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+display: flex;
+}
+.nav_inline {
+    gap: var(--space-l);
+}
+.nav_vertical {
+    gap: var(--space-xm);
+    flex-direction: column;
+}
+.nav_link {
+color: var(--color-text);
+font-size: var(--size-d);
+text-decoration: none;
+
+line-height: 100%;
+}
+.nav_link:hover {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--space-l) 0;
+    border-top: 1px solid var(--color-border);
+}
+.footer_copyright {
+    font-size: var(--size-s);
+    color: var(--color-text);
+    display: block;
+    margin-top: var(--space-l);
+}
+.footer_title {
+    font-size: var(--size-l);
+    color: var(--color-title);
+    display: block;
+    margin-bottom: var(--space-l);
+    font-weight: var(--weight-title);
+}
+.main {
+    display: flex;
+}
+.main_image {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+}
+.main_info {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-l);
+    padding-left: 80px;
+    justify-content: center;
+}
+.main_title {
+    color: var(--color-title);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: -0.8px;
+}
+.main_paragraph {
+    color: #5A5A5A;
+    font-size: var(--size-d);
+}
+.main_button {
+    background-color: #6C757D;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 120px;
+    height: var(--space-b);
+    border-radius: 4px;
+    padding: var(--space-m) var(--space-xm);
+}
+.main_button:hover {
+    opacity: 0.5;
+}
+.featured {
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #5A5A5A;
+}
+.featured_content {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    gap: var(--space-l);
+    align-items: flex-start;
+}
+
+
+.featured_image {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--border-radius);
+}
+.featured_title {
+    color: var(--color-title);
+    font-size: 31px;
+    font-weight: 500;
+}
+.featured_info {
+    color: var(--color-text);
+    font-size: var(--size-d);
+}
+.featured_link {
+    color: var(--color-primary);
+    font-size: var(--size-d);
+    text-decoration-line: underline;
+}
+.actions {
+    display: flex;
+    justify-content: space-between;
+    background-color: #563D7C;
+    border-radius: 8px;
+}
+.action_content {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    padding: var(--space-l);
+    align-content: start;
+    gap: var(--space-m);
+}
+.action_title {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.action_button {
+    color: var(--color-text);
+    text-align: center;
+    font-size: var(--size-l);
+    text-decoration: none;
+    background: var(--color-white);
+    border-radius: 5px;
+    padding: var(--space-xm) ;
+
+}
+.action_button:hover {
+    opacity: 0.7;
+}
