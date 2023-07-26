@@ -28,11 +28,11 @@ body {
  * Render the `main` element consistently in IE.
  */
 
-main {
+/* main {
     display: block;
     -ms-overflow-style: none; /* IE и Edge */
-    scrollbar-width: none; /* Firefox */
-}
+    /* scrollbar-width: none; Firefox
+} */ */
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -160,7 +160,7 @@ img {
  */
 
 button,
-input,
+/* input, */
 optgroup,
 select,
 textarea {
@@ -383,7 +383,7 @@ input[type="submit"]
     background:none;
 }
 
-input,
+/* input, */
 label,
 select,
 button,
@@ -399,7 +399,7 @@ textarea
     line-height:1;
 
     /* Browsers have different default form fonts */
-    font-size:13px;
+    /* font-size:13px; */
 }
 
 /* Remove the stupid outer glow in Webkit */
@@ -590,21 +590,21 @@ tt,
 u,
 ul,
 var,
-video {
+/* video {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+} */
 
 :focus {
   outline: 0;
 }
 
 article,
-aside,
+/* aside, */
 details,
 figcaption,
 figure,
@@ -612,14 +612,14 @@ footer,
 header,
 hgroup,
 menu,
-nav,
-section {
+/* nav, */
+/* section {
   display: block;
-}
+} */
 
 /* body {
-  line-height: 1; */
-}
+  line-height: 1;
+} */
 
 ol,
 ul {
@@ -721,7 +721,7 @@ legend {
 }
 
 button,
-input,
+/* input, */
 select,
 textarea {
   font-size: 100%;
@@ -731,13 +731,13 @@ textarea {
 }
 
 button,
-input {
+/* input {
   line-height: normal;
   padding: 0;
   border: 0;
   background: 0;
   box-shadow: 0 0 0 transparent;
-}
+} */
 
 button,
 select {
@@ -818,7 +818,7 @@ a:focus {
   outline: 0;
 }
 
-input,
+/* input, */
 textarea {
   outline: 0;
 }
@@ -897,11 +897,11 @@ input:-ms-input-placeholder {
   text-overflow: ellipsis;
 }
 
-input {
+/* input {
   background-color: inherit;
   background-image: inherit;
   color: inherit;
-}
+} */
 
 * {
   box-sizing: border-box;
